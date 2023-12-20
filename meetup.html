@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head> 
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>VetGhat</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""/>
+</head>    
+<body>
+  <ul class="navbar">
+    <li><a href="./frontpage.html" style="color: #fff; text-decoration: none;">VetGhat</a>
+      <input class="search-bar" type="text" placeholder="Search...">
+    </li>
+    <!-- <li class="search-bar"> -->
+    
+    <div class="profile">
+            <img src="./images/ankit.png" alt="" width="45x" height="45px"
+        style="border-radius: 50%; border: 0.5px solid #ffffff;">
+        <div class="name" style="color: #fff; text-decoration: none;">Ankit Lama</div>
+    </div>
+  </ul>
+  <div class="main-container">
+<div class="left-container">
+
+  <div class="fcontainer">
+    <div class="fitem item1 item"><a href="index.html">Location</a></div>
+    <div class="fitem item2 item"><a href="#">Meet Up</a></div>
+  </div>  
+  <div class="scontainer">
+    <div class="sitem item1 item"><a href="#">History</a></div>
+    <div class="sitem item2 item"><a href="settings.html">Settings</a></div>
+  </div>
+</div>
+<div id="meetup">
+  <h2 align="center">Create Group for Meet-up</h2> 
+  <label for="group name" class="form-label">Group Name</label>
+  <input type="group name" class="form-control sub-heading" id="exampleInputgroupname" placeholder="Enter your group name">
+  <div class="frcontent">
+    <h4>Friend List</h4>
+    <p class="sub-heading">Choose your friends to add..</p>
+     <div class="friend-list">
+      <div class="f-name">
+        <div class="image">
+          <img src="./images/ankit.png" alt="" width="45px" height="45px"
+            style="border-radius: 50%; border: 0.5px solid #d9d9d9;">
+        </div>
+        <div class="friends">
+          <span class="appoint-name">Shisir Pradhan</span>
+        </div>
+      </div>
+      <div class="add">
+        <button><a href="tel:9860112223" style="text-decoration: none; color: #fff;">ADD Friend</a></button>
+      </div>
+    </div>
+    <div class="friend-list">
+      <div class="f-name">
+        <div class="image">
+          <img src="./images/ankit.png" alt="" width="45px" height="45px"
+            style="border-radius: 50%; border: 0.5px solid #d9d9d9;">
+        </div>
+        <div class="friends">
+          <span class="appoint-name">Ashok Rai</span>
+        </div>
+      </div>
+      <div class="add">
+        <button><a href="#" style="text-decoration: none; color: #fff;">ADD Friend</a></button>
+      </div>
+    </div>
+    <div class="friend-list">
+      <div class="f-name">
+        <div class="image">
+          <img src="./images/ankit.png" alt="" width="45px" height="45px"
+            style="border-radius: 50%; border: 0.5px solid #d9d9d9;">
+        </div>
+        <div class="friends">
+          <span class="appoint-name">Sajen Maharjan</span>
+        </div>
+      </div>
+      <div class="add">
+        <button><a href="#" style="text-decoration: none; color: #fff;">ADD Friend</a></button>
+
+      </div>
+    </div>
+    <div class="friend-list">
+      <div class="f-name">
+        <div class="image">
+          <img src="./images/ankit.png" alt="" width="45px" height="45px"
+            style="border-radius: 50%; border: 0.5px solid #d9d9d9;">
+        </div>
+        <div class="friends">
+          <span class="appoint-name">Shraddha Dangol</span>
+        </div>
+      </div>
+      <div class="add">
+        <button><a href="#" style="text-decoration: none; color: #fff;">ADD Friend</a></button>
+        
+      </div>
+    </div>
+    <div class="friend-list">
+      <div class="f-name">
+        <div class="image">
+          <img src="./images/ankit.png" alt="" width="45px" height="45px"
+            style="border-radius: 50%; border: 0.5px solid #d9d9d9;">
+        </div>
+        <div class="friends">
+          <span class="appoint-name">Sofia Shrestha</span>
+        </div>
+      </div>
+      <div class="add">
+        <button><a href="#" style="text-decoration: none; color: #fff;">ADD Friend</a></button>
+        
+      </div>
+    </div>
+    <br>
+    <div class="balign">
+    <button id="seemore">See more..</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="balign">
+      <button type="submit" class="form-btn"><a href="./datentime.html" style="color: #fff; text-decoration: none;">Confirm</a></button>
+    </div>
+  </div>
+  </div>
+</div>
+  </div>
+  <!-- <li style="color:#1877F2; text-decoration: none;">Group name</li> -->
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head> 
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>VetGhat</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""/>
+</head>    
+<body>
+  <ul class="navbar">
+    <li><a href="./frontpage.html" style="color: #fff; text-decoration: none;">VetGhat</a>
+      <input class="search-bar" type="text" placeholder="Search...">
+    </li>
+    <!-- <li class="search-bar"> -->
+    
+    <div class="profile">
+            <img id="profile-pic" src="./images/#" alt="" width="45x" height="45px" alt="profile"
+        style="border-radius: 50%; border: 0.5px solid #ffffff;">
+        <div id="username" style="color: #fff; text-decoration: none;">User</div>
+    </div>
+  </ul>
+  <div class="main-container">
+<div class="left-container">
+
+  <div class="fcontainer">
+    <div class="fitem item1 item"><a href="#">Location</a></div>
+    <div class="fitem item2 item"><a href="./meetup.html">Meet Up</a></div>
+  </div>  
+  <div class="scontainer">
+    <div class="sitem item1 item"><a href="#">History</a></div>
+    <div class="sitem item2 item"><a href="settings.html">Settings</a></div>
+  </div>
+</div>
+<div id="map">
+</div>
+  </div>
+  <!-- <li style="color:#1877F2; text-decoration: none;">Group name</li> -->
+</body>
+<script src="script.js"></script>
+<script src="index.js"></script>
+
+</html>

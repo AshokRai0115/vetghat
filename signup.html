@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Sign up</title>
+</head>
+
+<body>
+    <h2>VetGhat</h2>
+    <form id="signup-form">
+    <div class="opening" id="form-title">
+        <h4><span style="color: var(--first-color)">Sign Up</span></h4>
+      </div>
+    <br>
+    <div class="mb-2">
+      <label for="username" class="form-label">Full Name</label>
+      <input type="text" class="form-control sub-heading" id="username" width="100" placeholder="Enter your Full Name">
+    </div>
+        <div class="mb-2">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control sub-heading" id="email" width="100" placeholder="Enter your Email Address" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-2">
+          <label for="password" class="form-label">Password</label>
+          <input type="password sub-heading" class="form-control sub-heading" id="password" placeholder="Enter your Password">
+        </div>
+        <div class="mb-2">
+          <label for="cpassword" class="form-label">Confirm  Password</label>
+          <input type="password sub-heading" class="form-control sub-heading" id="cpassword" placeholder="Reenter your Password">
+        </div>
+        <button type="submit" class="form-btn" id="signup-btn">Sign up</button>
+
+        <!-- <button type="submit" class="form-btn" id="signup-btn"><a href="./signin.html" style="color: #fff; text-decoration: none;">Sign up</a></button> -->
+        <div class="or">
+            <label class="label sub-heading">OR</label>
+        </div>
+        <div class="or">
+            <label class="label sub-heading">Already have an account? <a href="./signin.html">Login</a></label>
+        </div>
+        <div id="err"></div>
+      </form>
+
+<script src="signup.js"></script>
+</body>
+
+
+</html>
